@@ -35,7 +35,9 @@
 
            P.loader
             .add([
-                {name:"demon",url:"data/Demon.json"}
+                {name:"demon",url:"data/Demon.json",metadata:{
+                        spineAtlasSuffix:".txt"
+                    }}
             ])
             .load(setup2);
 
